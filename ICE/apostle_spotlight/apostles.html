@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            background-color: #E8ECED;
+            font-family: Arial;
+            display: grid;
+            grid-template-columns: 1fr 6fr 1fr;
+        }
+
+        .card {
+            grid-column: 2;
+            z-index: 2;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(24, 1fr);
+            grid-template-rows: 1fr 2fr 1fr 2fr 2fr 2fr;
+            border: 10px solid black;
+            border-radius: 40px;
+            overflow: hidden;
+        }
+
+        #christus {
+            display: block;
+            grid-area: 1/1/span 6/span 24;
+            justify-self: center;
+            align-self: center;
+            z-index: 1;
+        }
+
+        p {
+            grid-column: 1/-1;
+            z-index: 2;
+            justify-self: center;
+            align-self: center;
+            color: white;
+        }
+
+        #title {
+            grid-row: 1;
+            font-size: 3.5em;
+            margin: 0;
+        }
+
+        .presidency-container, .apostle-container {
+            z-index: 2;
+            border: 10px solid white;
+            border-radius: 75%;
+            width: 80%;
+            aspect-ratio: 1/1;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        .presidency-container:hover, .apostle-container:hover {
+            border-color: #000E8C;
+        }
+
+        .presidency, .apostle {
+            width: 100%;
+            justify-self: center;
+            align-self: center;
+        }
+
+        #eyring {
+            grid-row: 2;
+            grid-column: 7/span 4;
+        }
+
+        #oaks {
+            grid-row: 2;
+            grid-column: 11/span 4;
+        }
+
+        #christofferson {
+            grid-row: 2;
+            grid-column: 15/span 4;
+        }
+
+        #subtitle {
+            grid-row: 3;
+            font-size: 2em;
+            margin: 0;
+        }
+
+        #uchtdorf, #bednar, #cook, #anderson {
+            grid-row: 4;
+        }
+
+        #rasband, #stevenson, #renlund, #gong {
+            grid-row: 5;
+        }
+
+        #soares, #kearon, #causse, #gilbert {
+            grid-row: 6;
+        }
+
+        #uchtdorf, #rasband, #soares {
+            grid-column: 7/span 3;
+        }
+
+        #bednar, #stevenson, #kearon {
+            grid-column: 10/span 3;
+        }
+
+        #cook, #renlund, #causse {
+            grid-column: 13/span 3;
+        }
+
+        #anderson, #gong, #gilbert {
+            grid-column: 16/span 3;
+        }  
+    </style>
+</head>
+<body></body>
+    <div class="card">
+        <img id="christus" src="images/christus.webp">
+        <p id="title">First Presidency</p>
+        <div class="presidency-container" id="eyring">
+            <img class="presidency" id="eyring" src="images/eyring.webp" alt="President Henry B. Eyring">
+        </div>
+        <div class="presidency-container" id="oaks">
+            <img class="presidency" id="oaks" src="images/oaks.webp" alt="President Dallin H. Oaks">
+        </div>
+        <div class="presidency-container" id="christofferson">
+            <img class="presidency" id="christofferson" src="images/christofferson.webp" alt="President D. Todd Christofferson">
+        </div>
+        <p id="subtitle">Quorum of the Twelve Apostles</p>
+        <div class="apostle-container" id="uchtdorf">
+            <img class="apostle" id="uchtdorf" src="images/uchtdorf.webp" alt="Elder Dieter F. Uchtdorf">
+        </div>
+        <div class="apostle-container" id="bednar">
+            <img class="apostle" id="bednar" src="images/bednar.webp" alt="Elder David A. Bednar">
+        </div>
+        <div class="apostle-container" id="cook">
+            <img class="apostle" id="cook" src="images/cook.webp" alt="Elder Quentin L. Cook">
+        </div>
+        <div class="apostle-container" id="anderson">
+            <img class=apostle id="anderson" src="images/anderson.webp" alt="Elder Neil L. Anderson">
+        </div>
+        <div class="apostle-container" id="rasband">
+            <img class="apostle" id="rasband" src="images/rasband.webp" alt="Elder Ronald A. Rasband">
+        </div>
+        <div class="apostle-container" id="stevenson">
+            <img class="apostle" id="stevenson" src="images/stevenson.webp" alt="Elder Gary E. Stevenson">
+        </div>
+        <div class="apostle-container" id="renlund">
+            <img class="apostle" id="renlund" src="images/renlund.webp" alt="Elder Dale G. Renlund">
+        </div>
+        <div class="apostle-container" id="gong">
+            <img class="apostle" id="gong" src="images/gong.webp" alt="Elder Gerrit W. Gong">
+        </div>
+        <div class="apostle-container" id="soares">
+            <img class="apostle" id="soares" src="images/soares.webp" alt="Elder Ulisses Soares">
+        </div>
+        <div class="apostle-container" id="kearon">
+            <img class="apostle" id="kearon" src="images/kearon.webp" alt="Elder Patrick Kearon">
+        </div>
+        <div class="apostle-container" id="causse">
+            <img class="apostle" id="causse" src="images/causse.webp" alt="Elder Gerard Causse">
+        </div>
+        <div class="apostle-container" id="gilbert">
+            <img class="apostle" id="gilbert" src="images/gilbert.webp" alt="Elder Clark G. Gilbert">
+        </div>
+    </div>
+
+
+</body>
+</html>
