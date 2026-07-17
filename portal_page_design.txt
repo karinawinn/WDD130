@@ -1,0 +1,25 @@
+Logo: Portal_Logo.png is in the Images folder. 
+
+Colors: 
+
+Primary: #38116B
+Secondary: #F6EE72
+Accent 1: #CCCEE9
+Note: White or black may also be used as a second accent color.
+
+Applications: 
+
+Headline color on white: #38116B
+Headline color on color: #F6EE72
+Paragraph color on white: #38116B
+Paragraph color on color: white
+Paragraph background color: #38116B
+Nav link color: white
+Nav background color: #38116B
+Nav hover link color: #F6EE72
+Nav hover background color: #38116B
+
+Fonts:
+
+Heading Font: Syne Mono
+Paragraph Font: Trebuchet MS
