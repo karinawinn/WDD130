@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <table>
+          <tr>
+            <th>Speaker</th>
+            <th>Title</th>
+            <th>Location</th>
+            <th>Year</th>
+          </tr>
+          <tr id="odd">
+            <td>Elder David A. and Sister Susan K. Bednar</td>
+            <td>The Family is Ordained of God</td>
+            <td>Brigham Young University - Idaho</td>
+            <td>2025</td>
+          </tr>
+          <tr id="even">
+            <td>Kent L. Gee</td>
+            <td>Lessons from Noise: Crackle to Calm</td>
+            <td>Brigham Young University</td>
+            <td>2025</td>
+          </tr>
+          <tr id="odd">
+            <td>Sister Jennifer E. Meredith</td>
+            <td>Enroll in the Master's Class</td>
+            <td>Brigham Young University - Idaho</td>
+            <td>2023</td>
+          </tr>
+        </table>
+        <p>Add to Your Favorite Devotionals</p>
+        <form>
+          <label for="speaker">Speaker:</label>
+          <input type="text" id="speaker" name="speaker"><br>
+          <label for="title">Title:</label>
+          <input type="text" id="title" name="title"><br>
+          <label for="location">Location:</label>
+          <input type="text" id="location" name="location"><br>
+          <label for="year">Year:</label>
+          <input type="text" id="year" name="year"><br>
+          <button type="submit">Add</button>
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
