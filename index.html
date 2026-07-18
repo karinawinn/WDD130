@@ -36,28 +36,39 @@
             <div class="project-content">
                 <h2 class="WWR">White Water Rafting</h2>
                 <p class="WWR">This is a website I've created for a fictional whitewater rafting company called Roaring Rockies Rafting.</p>
-                <button type="button" class="WWR">Visit Page</button>
+                <form action="/WWR/index.html" target="_blank" class="link-form">
+                    <button type="submit" class="WWR">Visit Page</button>
+                </form>
             </div>
             <img id="ICE-image" src="Images/ice.jpeg" alt="In_Class_Exercises">
             <div class="project-content">
                 <h2 class="ICE">In Class Exercises</h2>
                 <p class="ICE">This is a collection of simple web pages I've created in class.</p>
-                <button type="button" class="ICE">Visit Page</button>
+                <form action="ice.html" target="_blank" class="link-form">
+                    <button type="submit" class="ICE">Visit Page</button>
+                </form>
             </div>
             <img id="ME-image" src="Images/MugShot.jpeg" alt="About_Me">
             <div class="project-content">
                 <h2 class="ME">About Me</h2>
                 <p class="ME">This is a page where you can learn more about me.</p>
-                <button type="button" class="ME">Visit Page</button>
+                <form action="index.html" target="_blank" class="link-form">
+                    <button type="submit" class="ME">Visit Page</button>
+                </form>
             </div>
         </div>
         <div class="form-container">
             <h2>Comment on a Project!</h2>
-            <form>
+            <form class="comment-form">
                 <input type="text" id="name" name="name" placeholder="Name">
                 <input type="text" id="project_name" name="project_name" placeholder="Project Name">
                 <textarea id="comment" name="comment" rows="7" cols="200" placeholder="Comment"></textarea>
-                <button type="submit">Submit</button>
+                <button type="submit" id="comment-button">Submit</button>
+            </form>
+        </div>
+        <div class="report-container">
+            <form action="client_report.html" target="_blank" class="link-form">
+                <button type="submit">Client Report</button>
             </form>
         </div>
     </main>
