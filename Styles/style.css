@@ -142,20 +142,11 @@ h2 {
     font-size: 1.1em;
 }
 
-button {
-    background: #F6EE72;
-    color: black;
-    font-size: 1.2em;
-    border: 3px solid black;
-    border-radius: 10px;
-    padding: 10px;
-}
-
 .form-container {
     margin: 40px;
 }
 
-form {
+.comment-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -163,7 +154,7 @@ form {
     margin-top: 30px;
 }
 
-form input {
+.comment-form input {
     font-size: 1.1em;
 }
 
@@ -184,15 +175,33 @@ form input {
     font-size: 1.1em;
 }
 
-form button {
+.link-form {
+    display: flex;
+}
+
+.link-form button {
     background: #F6EE72;
     color: black;
     font-size: 1.2em;
     border: 3px solid black;
     border-radius: 10px;
     padding: 10px;
+    margin: auto;
+}
+
+#comment-button {
     grid-column: 1;
     grid-row: 3;
+    background: #F6EE72;
+    color: black;
+    font-size: 1.2em;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.report-container {
+    margin: 40px;
 }
 
 footer {
@@ -263,4 +272,50 @@ footer p {
 
 .challenge-text form {
     display: block;
+}
+
+/* Client Report */
+
+.question {
+    margin-left: 40px;
+    font-size: 2.1vw;
+    font-weight: 600;
+}
+
+.answer {
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 1.7vw;
+}
+
+.double-button {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.left-button {
+    justify-self: right;
+}
+
+.left-button button {
+    background: #F6EE72;
+    color: black;
+    font-size: 1.2em;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.right-button button {
+    background: #F6EE72;
+    color: black;
+    font-size: 1.2em;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#last-answer {
+    margin-bottom: 50px;
 }
